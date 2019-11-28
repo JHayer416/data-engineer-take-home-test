@@ -14,17 +14,17 @@ Save SQL files to `SQL`, exports to `EXPORT` and scripts to `SCRIPTS`.
 
 1. Design and create a SQL schema to store the `amazon-cell-phone` files.
  
-2. Write a script to load the `.csv` data into the tables created in step 1.
+2. Write a script to load the `.csv` data into the tables created in step `1`.
   
 3. Write a script to export the table data into the `EXPORT` folder in `.csv` format.
 
-4. Write a script to search Amazon for an ASIN and then update the fields in the items table.
+4. Write a script to search Amazon for an ASIN and then update the fields in the `items` table.
 
 5. Download GSMARENA database from https://www.kaggle.com/arwinneil/gsmarena-phone-dataset
 
 6. Write an ETL script to:
-    1. Find a match on items.title with a GSMArena Model. 
-    1. Save 4 additonal meta fields into `items` from the GSMArena data.
+    1. Find a match on `items.title` with a GSMArena Model. 
+    1. Save `4` additonal meta fields into `items` from the GSMArena data.
     1. Transform the `network_technology` field into a `;` delimited string and save this into a new field in `items`
 
 7. Write a SQL statement which to display the following;
