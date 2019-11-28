@@ -1,1 +1,1 @@
-Please save SQL statements in here.
+Save SQL statements in here.

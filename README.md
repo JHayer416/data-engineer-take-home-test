@@ -10,7 +10,7 @@ Feel free to use any language or technology you are most comfortable with.
 
 
 ## Tasks
-Please save SQL files to `SQL`, exports to `EXPORT` and scripts to `SCRIPTS`.
+Save SQL files to `SQL`, exports to `EXPORT` and scripts to `SCRIPTS`.
 
 1. Design and create a SQL schema to store the `amazon-cell-phone` files.
  
@@ -31,11 +31,11 @@ Please save SQL files to `SQL`, exports to `EXPORT` and scripts to `SCRIPTS`.
 
     ASIN, TITLE, Count of reviews from  `reviews` table.
 
-8. Using the data from step 7, generate a Pie chart in gsheets to show the top 10 products with the highest number of reviews.
+8. Using the data from step 7, generate a Pie chart in Microsoft Excel/gSheets to show the top 10 products with the highest number of reviews. Export file to -`Exports`
 
-9. Write up in this readme - a strategy for creating an automation for step 6 that runs hourly, 7 days a week. (Please include technology arangement, alternatives, reasons why and pricing)
+9. Given you had 4 months of development time, how would you go about setting up an automation for step `6` that runs hourly, 7 days a week. (Include technology arangement, alternatives, reasons why and pricing)
 
-Write up
---------
+10. Several stakeholders love the report built in step 7. How would you go about making this available for them to run on demand?
+
 
 

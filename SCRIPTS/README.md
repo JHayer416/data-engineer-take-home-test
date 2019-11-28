@@ -1,1 +1,1 @@
-Please save scripts in here.
+Save scripts in here.
