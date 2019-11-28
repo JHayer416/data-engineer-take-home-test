@@ -23,13 +23,13 @@ Please save SQL files to `SQL`, exports to `EXPORT` and scripts to `SCRIPTS`.
 5. Download GSMARENA database from https://www.kaggle.com/arwinneil/gsmarena-phone-dataset
 
 6. Write an ETL script to:
-    i) Find a match on items.title with a GSMArena Model. 
-    ii) Save 4 additonal meta fields into `items` from the GSMArena data.
-    iii) Transform the `network_technology` field into a `;` delimited string and save this into a new field in `items`
+    1. Find a match on items.title with a GSMArena Model. 
+    1. Save 4 additonal meta fields into `items` from the GSMArena data.
+    1. Transform the `network_technology` field into a `;` delimited string and save this into a new field in `items`
 
 7. Write a SQL statement which to display the following;
 
-    ASIN, TITLE, Count of reviews from  `reviews` table/
+    ASIN, TITLE, Count of reviews from  `reviews` table.
 
 8. Using the data from step 7, generate a Pie chart in gsheets to show the top 10 products with the highest number of reviews.
 
@@ -37,6 +37,5 @@ Please save SQL files to `SQL`, exports to `EXPORT` and scripts to `SCRIPTS`.
 
 Write up
 --------
-
 
 
