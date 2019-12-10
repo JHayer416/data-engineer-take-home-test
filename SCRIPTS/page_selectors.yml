@@ -1,0 +1,15 @@
+asin:
+    css: 'tr:nth-of-type(4) td.a-size-base'
+    type: Text
+title:
+    css: 'h1.a-size-large span.a-size-large'
+    type: Text
+rating:
+    css: 'div.centerColAlign span.reviewCountTextLinkedHistogram a.a-popover-trigger'
+    type: Text
+totalReviews:
+    css: 'div.centerColAlign span.a-declarative span.a-size-base'
+    type: Text
+prices:
+    css: 'td.a-span12 span.a-size-medium'
+    type: Text

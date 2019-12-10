@@ -1,0 +1,1 @@
+UPDATE amazoncellphone.items SET asin = 'B07R5ZYR77', title = 'Xiaomi Mi 9 128GB + 6GB RAM - 48MP Ultra High Resolution Camera LTE Factory Unlocked GSM Smartphone (Global Version, No Warranty) (Piano Black)', rating="4.7", totalReviews="46", prices="$390.00 "  WHERE asin = "B07R5ZYR77";

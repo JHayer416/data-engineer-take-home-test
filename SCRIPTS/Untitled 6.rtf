@@ -1,0 +1,91 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww12880\viewh11900\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Have Artist Name and Label in each table. That way all the records will be connected  \
+\
+BA Streams - replace song_id with \'93song title\'94 and add column for \'93artist name\'94 \
+Marketing Expenses - add \'93artist name\'94 column \
+\
+MERGE (n:MyNode \{Name:line.Source\}) \
+MERGE (m:MyNode \{Name:line.Target\})  \
+MERGE (n) -[:TO\{dist:line.distance\}]-> (m) \
+\
+Next step is figure out how to upload data for BigQuery  \
+\
+Take raw data from 6 shooter report. Clean & Normalize. \
+\
+Take all raw data and organize it and clean it in a way that makes sense. Couple of things I think I missed which I want you to account for \
+\
+1) Sync and publish revenue were accounted for in the same invoice. Need to be separate \
+2) Merch and ticktets? When the merch and tickets invoice was sent, thought it was solely revenue from those two but discovered that the revenue numbers represented just the commission the label made off of that transaction. So the numbers were understated. \
+*Look at SOW for the roster for roster analysis to clearly understand what data reports I am looking for in the google doc that was shared.  \
+\
+1) Find the needed reports \
+\
+*For all of the roster analysis reports, Kirsten will receive daily streaming data for one year from Buzz Angle. Buzz Angle is a streaming aggregate (look up more on Buzz Angle) \
+\
+Did not use this stream data in the report from Six Shooter but used Buzz Angles. \
+Before viewing other invoices,  \
+\
+Take the 3 statements and consolidate them into 1 statement. And normalize the information across it. Orhcard, Thirty Tigers & Universal \
+(Make a list of all of the problems I encountered with the way the lables currently receive invoices from distributors) \
+\
+Orchard Statements are in USD, Universal Statements are in Canadian, 30 Tigers are in US \
+1) Start by combing through what may be potential duplicates and remove those \
+\
+On v11, roster template tab \
+\
+Wants to know the reasons why she couldn\'92t use \
+\
+\
+2 Tasks \
+1) Issues trying to normalize data across 3 distributors \
+2) Attempt to consolidate all 3 into 1, if possible. If not, state why. \
+3) What my step by step process was. Document EACH step.   \
+\
+\
+Consolidate the invoices from the 3 distributors (as listed above) into a format of SS Streams so it\'92s all together. Look at the financials.  \
+\
+Universal doesn\'92t allow you to break out into multiple periods.  \
+\
+\
+1) Accounting doesn\'92t account revenue when it\'92s accrued but is instead backdated \
+2) Currency issues between CAD & USD \
+3) Universal statements bucket all the monthly revenue rather than breaking it down. \
+4) In particular cases, misspelling of names. \
+5) Invoices don\'92t include UPC (id code for album) or ISR (id code for track) number.  \
+\
+_ _ _ _ _________________________________________________________________\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 \ul \ulc0 AWS RDS DB INFO \
+\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f1\b0 \cf2 \expnd0\expndtw0\kerning0
+\ulnone DB instance identifier - westcottmm \
+Master username - jhayer \
+\kerning1\expnd0\expndtw0 Master Password - Jaskat416# \
+Database name - jhayer416 \
+\
+
+\b \ul AZURE DBS INFO \
+\ulnone Server name: westcottmm  \
+Server Admin Login: jhayer \
+Password: Jaskat416#\ul \
+\
+\
+\
+Database name: Roster 
+\f0 \cf0 \ulnone \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \ul \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \ulnone \
+Martin \
+604-294-1200 ext 128 }
